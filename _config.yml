@@ -1,3 +1,8 @@
 title: Простыми словами
 lang: ru
-theme: jekyll-theme-minimal
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

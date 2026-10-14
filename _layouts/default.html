@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} · Простыми словами</title>
+  <meta name="description" content="Документы Telegram-бота «Простыми словами»: публичная оферта и условия возврата.">
+  <link rel="icon" href="{{ '/assets/logo.jpg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/logo.jpg' | relative_url }}" alt="" width="40" height="40">
+        <span>Простыми словами</span>
+      </a>
+      <nav>
+        <a href="{{ '/offer/' | relative_url }}">Оферта</a>
+        <a href="{{ '/refund/' | relative_url }}">Возврат</a>
+        <a class="btn" href="https://t.me/prostymy_slovamy_bot">Открыть бота</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap doc">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Исполнитель:</strong> Сецкий Иван Васильевич, ИНН 511201570210, самозанятый (плательщик НПД).</p>
+      <p>Обращения: <a href="mailto:16-salable-via@icloud.com">16-salable-via@icloud.com</a> или кнопка «Техподдержка» в боте.</p>
+    </div>
+  </footer>
+</body>
+</html>
