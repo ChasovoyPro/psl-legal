@@ -5,7 +5,7 @@ permalink: /refund/
 
 # Условия возврата
 
-Telegram-бот «Простыми словами» (@prostymy_slovamy_bot). Редакция от 14.10.2026.
+Telegram-бот «Простыми словами» (@prostymy_slovamy_bot). Редакция от 15.10.2026.
 
 ## Как оформить возврат
 
